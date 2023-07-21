@@ -1,0 +1,248 @@
+
+.robo{
+    height: 600px;
+    width: 600px;
+    /* background-color: grey; */
+   
+} 
+.horn{
+    height: 50px;
+    width: 130px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(10px);
+}
+.h1{
+    height: 80px;
+    width: 5px;
+    background-color:rgb(20, 236, 20) ;
+    rotate: -20deg;
+    border: 4px solid white;
+    border-radius:50%;
+    border-radius: 10px 10px;
+    transform-origin: bottom;
+    animation: a2 2ms infinite;
+   
+    
+}
+.h2{
+    height: 80px;
+    width: 5px;
+    background-color:rgb(20, 236, 20) ;
+    rotate: 20deg;
+    border: 4px solid white;
+    border-radius:50%;
+    border-radius: 10px 10px;
+    transform-origin: bottom;
+    animation: a1 2ms infinite;
+}
+.container{
+    background-color: rgb(20, 236, 20);
+    height:80px;
+    width: 180px;
+    border-radius: 100px 100px 0 0; 
+    border: 5px solid white;
+    position: relative;
+    animation: f 2s infinite;
+    
+}
+.eye{
+    height:30px;
+    width: 100px;
+    margin: 40px;
+    /* background-color:black; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.e1{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    animation: e1 2s infinite;
+
+
+}
+.e2{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    animation: e2 2s infinite;
+
+
+}
+.body{
+    background-color: rgb(20, 236, 20);
+    height: 150px;
+    width: 180px;
+    border-radius: 0 0 30px 30px;
+    z-index: -1;
+    overflow: hidden;
+    border-radius: 50px;
+    animation: body 2s infinite;
+
+}
+.hand{
+
+    /* background-color: black; */
+    height: 150px;
+    width: 265px;
+    display: flex;
+    justify-content: space-between;
+    margin: -170px;
+}
+.hh1{
+    height: 140px;
+    width: 30px;
+    background-color: rgb(20, 236, 20);
+    border-radius: 20px 20px;
+    border: 5px solid white;
+    transform-origin: top;
+    animation: h1 1s infinite;
+    
+
+}
+.hh2{
+    height: 140px;
+    width: 30px;
+    background-color:rgb(20, 236, 20);
+    border-radius: 20px 20px;
+    border: 5px solid white;
+    transform-origin: top;
+    animation: h2 1s infinite;
+    
+}
+.leg{
+    /* background-color: red; */
+    height: 90px;
+    width: 120px;
+    margin: 160px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.l1{
+    background-color: rgb(20, 236, 20);
+    height: 110px;
+    width: 30px;
+    /* border: 5px solid white; */
+    border-radius:20px 20px 20px 20px;
+    transform-origin: top;
+    animation: l1 1s infinite;
+    
+    
+}
+.l2{
+    background-color: rgb(20, 236, 20);
+    height: 110px;
+    width: 30px;
+    /* border: 5px solid white; */
+    border-radius: 20px 20px 20px 20px;
+    transform-origin: top;
+    animation: l2 1s infinite;
+    
+}
+@keyframes body
+{
+    0%{
+       
+        rotate: 0deg;
+       
+    }
+    50%{
+        rotate: 360deg;
+       
+    }
+    
+}
+@keyframes hh1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    50%{
+        transform: rotate(90deg);
+    }
+    
+}
+@keyframes hh2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    
+    50%{
+        transform: rotate(-90deg);
+    }
+    
+}
+@keyframes l1 
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    
+}
+@keyframes l2
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-30deg); 
+    }
+    
+}
+@keyframes f {
+    
+    50%{
+        width:250px;
+    }
+    
+}
+@keyframes h1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    
+}
+@keyframes h2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-30deg);
+    }
+    
+}
+@keyframes e1 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateX(-20px);
+
+    }
+    
+}
+@keyframes e2 {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateX(-20px);
+
+    }
+    
+}
+    
+
+
